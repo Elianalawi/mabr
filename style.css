@@ -34,11 +34,6 @@ ul{list-style:none;}
   padding:0 24px;
 }
 
-/* Language utility classes (for long-form bilingual content) */
-.en-only{display:none;}
-body.lang-en .ar-only{display:none;}
-body.lang-en .en-only{display:block;}
-
 /* Logo */
 .logo{display:flex;align-items:center;gap:10px;}
 .logo-img{height:42px;width:auto;display:block;}
@@ -257,3 +252,9 @@ section h2{
   .pillars{grid-template-columns:1fr;}
   .gallery-grid{grid-template-columns:1fr;}
 }
+
+/* Language utility classes (for long-form bilingual content) */
+/* Placed last so they always win over earlier component styles that also set display */
+.en-only{display:none !important;}
+body.lang-en .ar-only{display:none !important;}
+body.lang-en .en-only{display:block !important;}
