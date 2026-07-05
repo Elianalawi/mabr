@@ -150,22 +150,13 @@ section h2{
 
 /* ARTICLES */
 .articles{background:var(--beige);}
-.article-grid{
-  display:grid;grid-template-columns:repeat(2,1fr);gap:26px;
-}
-.card{
-  background:#fff;border-radius:var(--radius);overflow:hidden;
+.coming-soon{
+  background:#fff;border-radius:var(--radius);padding:60px 30px;text-align:center;
   box-shadow:0 8px 24px rgba(0,0,0,0.06);
-  transition:transform .2s;
 }
-.card:hover{transform:translateY(-4px);}
-.card img{height:210px;object-fit:cover;width:100%;}
-.card-body{padding:22px;}
-.card-type{
-  color:var(--terracotta);font-weight:700;font-size:.85rem;text-transform:uppercase;
+.coming-soon-text{
+  color:var(--text-soft);font-size:1.1rem;max-width:520px;margin:0 auto 28px;
 }
-.card h3{margin:8px 0 10px;color:var(--green-dark);font-size:1.15rem;}
-.card p{color:var(--text-soft);font-size:.95rem;}
 
 /* GALLERY */
 .gallery-grid{

@@ -15,7 +15,7 @@ const translations = {
 
     about_tag: "من نحن",
     about_title: "قصتنا",
-    about_text: "بدأت معبر من سؤال كنا نسأله لأنفسنا كثير: ليش لازم نعيش في المدينة؟ اكتشفنا إن فيه أشخاص جربوا طرق مختلفة، عاشوا في القرى والمزارع والصحاري، وبنوا لأنفسهم حياة أبسط وأقرب للأرض والناس. جمعنا قصصهم في مقالات ومقابلات ودراسات ولقاءات، عشان نشاركها مع كل شخص يحس إنه يبحث عن شي مختلف.",
+    about_text: "بدأت معبر من سؤال كنا نسأله لأنفسنا كثير: ليش لازم نعيش في المدينة؟ اكتشفنا إن فيه أشخاص جربوا طرق مختلفة، عاشوا في القرى والمزارع والصحاري، وبنوا لأنفسهم حياة أبسط وأقرب للأرض والناس. الحين رايحين نجمع قصصهم، نقابلهم، ونتناقش معهم عن التحديات اللي تمنع أكثرنا من يجرب اللي جربوه، عشان نشارك كل هذا مع كل شخص يحس إنه يبحث عن شي مختلف.",
 
     pillar1_title: "مقالات",
     pillar1_text: "نكتب عن تجارب وأنظمة عيش بعيدة عن المدينة.",
@@ -26,12 +26,10 @@ const translations = {
     pillar4_title: "لقاءات",
     pillar4_text: "نجتمع ونتناقش وجهًا لوجه مع المهتمين والممارسين.",
 
-    articles_tag: "جديدنا",
+    articles_tag: "قريبًا",
     articles_title: "مقالات ولقاءات",
-    a1_type: "مقال", a1_title: "كيف تبدأ حياة بديلة خارج المدينة؟", a1_text: "دليل عملي للخطوات الأولى نحو نمط عيش أبسط وأكثر استقلالية.",
-    a2_type: "مقابلة", a2_title: "عائلة تركت المدينة نحو القرية", a2_text: "قصة عائلة اختارت العيش البسيط وكيف غيّرت حياتهم اليومية.",
-    a3_type: "دراسة", a3_title: "المجتمعات الزراعية المستدامة", a3_text: "جولة في نماذج حول العالم للعيش الجماعي والزراعة المستدامة.",
-    a4_type: "لقاء", a4_title: "العيش بلا كهرباء دائمة", a4_text: "حوار حول تجارب تخلي التعقيد التقني لصالح حياة أبسط.",
+    coming_soon_text: "أول المقالات والمقابلات في الطريق. تابعنا في نشرتنا عشان تكون أول من يقرأها.",
+    coming_soon_cta: "انضم لنشرتنا",
 
     gallery_tag: "لحظات من معبر",
     gallery_title: "معرض الصور",
@@ -65,7 +63,7 @@ const translations = {
 
     about_tag: "Who We Are",
     about_title: "Our Story",
-    about_text: "Mabr started from a question we kept asking ourselves: does life have to happen in a city? We found people who tried it differently, living in villages, on farms, and in the desert, building simpler lives closer to the land and to each other. We collect their stories in articles, interviews, studies, and talks, and share them with anyone who feels like they're looking for something different.",
+    about_text: "Mabr started from a question we kept asking ourselves: does life have to happen in a city? We found people who tried it differently, living in villages, on farms, and in the desert, building simpler lives closer to the land and to each other. Now we're setting out to collect their stories, meet them, and talk through the challenges that keep most of us from trying what they did, so we can share all of it with anyone who feels like they're looking for something different.",
 
     pillar1_title: "Articles",
     pillar1_text: "We write about experiences and ways of living beyond the city.",
@@ -76,12 +74,10 @@ const translations = {
     pillar4_title: "Talks",
     pillar4_text: "We meet and talk face to face with people who live it, or want to.",
 
-    articles_tag: "What's New",
+    articles_tag: "Coming Soon",
     articles_title: "Articles & Talks",
-    a1_type: "Article", a1_title: "How to Start an Alternative Life Outside the City", a1_text: "A practical guide to the first steps toward a simpler, more self-reliant lifestyle.",
-    a2_type: "Interview", a2_title: "A Family That Left the City for the Village", a2_text: "The story of a family that chose simple living and how it changed their daily life.",
-    a3_type: "Study", a3_title: "Sustainable Agricultural Communities", a3_text: "A tour of communities around the world built on shared living and sustainable farming.",
-    a4_type: "Talk", a4_title: "Living Without Constant Electricity", a4_text: "A conversation on experiences of forgoing technical complexity for a simpler life.",
+    coming_soon_text: "Our first articles and interviews are on the way. Follow our newsletter to be the first to read them.",
+    coming_soon_cta: "Join Our Newsletter",
 
     gallery_tag: "Moments from Mabr",
     gallery_title: "Photo Gallery",
