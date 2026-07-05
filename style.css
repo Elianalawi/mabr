@@ -205,6 +205,18 @@ section h2{
 .prose{max-width:680px;margin:0 auto;font-size:1.08rem;color:var(--text);}
 .prose p{margin-bottom:22px;}
 
+/* CONTACT PAGE */
+.contact-form-section{padding:20px 0 90px;}
+.contact-form{
+  max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:16px;
+}
+.contact-form input, .contact-form textarea{
+  padding:14px 18px;border-radius:14px;border:1px solid rgba(0,0,0,0.12);
+  font-family:inherit;font-size:1rem;background:#fff;resize:vertical;
+}
+.contact-form button{align-self:center;min-width:160px;margin-top:6px;}
+.form-note-dark{text-align:center;margin-top:18px;color:var(--text-soft);font-size:.9rem;}
+
 /* GALLERY */
 .gallery-grid{
   display:grid;grid-template-columns:repeat(3,1fr);gap:16px;

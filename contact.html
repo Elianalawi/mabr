@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تواصل معنا | معبر</title>
+<meta name="description" content="تواصل مع معبر، أرسل لنا رسالتك وبنرد عليك.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="تواصل معنا | معبر">
+<meta property="og:description" content="تواصل مع معبر، أرسل لنا رسالتك وبنرد عليك.">
+<meta property="og:image" content="https://zesty-meringue-1b5866.netlify.app/logo.png">
+<meta property="og:url" content="https://zesty-meringue-1b5866.netlify.app/contact.html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="تواصل معنا | معبر">
+<meta name="twitter:description" content="تواصل مع معبر، أرسل لنا رسالتك وبنرد عليك.">
+<meta name="twitter:image" content="https://zesty-meringue-1b5866.netlify.app/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="lang-ar">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="logo.png" alt="معبر" class="logo-img" onerror="this.style.display='none'; this.closest('.logo').classList.add('logo-fallback');">
+      <span class="logo-text"><span class="logo-ar">معبر</span><span class="logo-en">Mabr</span></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html#home" data-i18n="nav_home">الرئيسية</a>
+      <a href="index.html#about" data-i18n="nav_about">عنّا</a>
+      <a href="index.html#articles" data-i18n="nav_articles">مقالات</a>
+      <a href="talks.html" data-i18n="nav_talks">لقاءات</a>
+      <a href="contact.html" data-i18n="nav_contact">تواصل معنا</a>
+      <a href="index.html#join" class="nav-cta" data-i18n="nav_join">انضم إلينا</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="langToggle" class="lang-toggle" aria-label="Switch language">EN</button>
+      <button id="navBurger" class="nav-burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="article-hero">
+    <div class="container">
+      <span class="section-tag" data-i18n="contact_tag">نسمعك</span>
+      <h1 data-i18n="contact_title">تواصل معنا</h1>
+      <p class="coming-soon-text" data-i18n="contact_text">
+        عندك سؤال، فكرة، أو تجربة تبي تشاركها معنا؟ اكتب لنا وبنقرأها.
+      </p>
+    </div>
+  </section>
+
+  <section class="contact-form-section">
+    <div class="container">
+      <form id="contactForm" class="contact-form" action="https://formspree.io/f/YOUR_CONTACT_FORM_ID" method="POST">
+        <input type="text" name="name" data-i18n-placeholder="contact_name" placeholder="الاسم" required>
+        <textarea name="message" rows="6" data-i18n-placeholder="contact_message" placeholder="رسالتك" required></textarea>
+        <button type="submit" class="btn btn-primary" data-i18n="contact_submit">إرسال</button>
+      </form>
+      <p class="form-note-dark" id="contactNote" data-i18n="contact_note">سنقرأ رسالتك ونرد عليك إذا احتاجت رد.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">
+        <img src="logo.png" alt="معبر" class="logo-img" onerror="this.style.display='none'; this.closest('.logo').classList.add('logo-fallback');">
+        <span class="logo-text"><span class="logo-ar">معبر</span><span class="logo-en">Mabr</span></span>
+      </a>
+      <p data-i18n="footer_tagline">مبادرة معبر</p>
+    </div>
+  </div>
+  <p class="footer-copy" data-i18n="footer_copy">© 2026 معبر. جميع الحقوق محفوظة.</p>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("contactForm");
+    const note = document.getElementById("contactNote");
+    const successMsg = { ar: "تم إرسال رسالتك! شكراً لتواصلك معنا.", en: "Your message has been sent! Thanks for reaching out." };
+    const errorMsg = { ar: "الفورم غير مفعّل بعد. راجع ملف README لربطه بـ Formspree.", en: "This form isn't connected yet. See README to link it to Formspree." };
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const lang = document.documentElement.lang === "ar" ? "ar" : "en";
+      if (form.action.includes("YOUR_CONTACT_FORM_ID")) {
+        note.textContent = errorMsg[lang];
+        note.style.color = "#c1693e";
+        return;
+      }
+      try {
+        const res = await fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } });
+        if (res.ok) {
+          note.textContent = successMsg[lang];
+          note.style.color = "#33482f";
+          form.reset();
+        } else {
+          note.textContent = errorMsg[lang];
+          note.style.color = "#c1693e";
+        }
+      } catch (err) {
+        note.textContent = errorMsg[lang];
+        note.style.color = "#c1693e";
+      }
+    });
+  });
+</script>
+</body>
+</html>
