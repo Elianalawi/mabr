@@ -26,10 +26,12 @@ const translations = {
     pillar4_title: "لقاءات",
     pillar4_text: "نجتمع ونتناقش وجهًا لوجه مع المهتمين والممارسين.",
 
-    articles_tag: "قريبًا",
+    articles_tag: "أول مقالاتنا",
     articles_title: "مقالات ولقاءات",
-    coming_soon_text: "أول المقالات والمقابلات في الطريق. تابعنا في نشرتنا عشان تكون أول من يقرأها.",
-    coming_soon_cta: "انضم لنشرتنا",
+    a1_type: "مقال",
+    a1_title: "لستَ وحدك",
+    a1_text: "رحلة شخصية من النجاح المادي إلى البحث عن معنى الحياة، وكيف وصلت إلى فكرة القرى البيئية.",
+    more_soon_text: "مقالات ومقابلات أكثر في الطريق.",
 
     gallery_tag: "لحظات من معبر",
     gallery_title: "معرض الصور",
@@ -74,10 +76,12 @@ const translations = {
     pillar4_title: "Talks",
     pillar4_text: "We meet and talk face to face with people who live it, or want to.",
 
-    articles_tag: "Coming Soon",
+    articles_tag: "Our First Article",
     articles_title: "Articles & Talks",
-    coming_soon_text: "Our first articles and interviews are on the way. Follow our newsletter to be the first to read them.",
-    coming_soon_cta: "Join Our Newsletter",
+    a1_type: "Article",
+    a1_title: "You're Not Alone",
+    a1_text: "A personal journey from material success to searching for meaning, and how it led to the idea of ecovillages.",
+    more_soon_text: "More articles and interviews are on the way.",
 
     gallery_tag: "Moments from Mabr",
     gallery_title: "Photo Gallery",
