@@ -105,7 +105,7 @@ body.lang-en .logo-en{display:inline;}
   grid-template-columns:repeat(5,1fr);
   grid-template-rows:repeat(2,1fr);
   gap:2px;
-  filter:blur(5px) saturate(0.85);
+  filter:blur(3px) saturate(1.05);
   transform:scale(1.08);
 }
 .hero-bg img{
@@ -116,13 +116,18 @@ body.lang-en .logo-en{display:inline;}
   inset:0;
   z-index:1;
   background:
-    linear-gradient(180deg, rgba(250,246,236,0.86), rgba(250,246,236,0.9)),
+    linear-gradient(180deg, rgba(250,246,236,0.5), rgba(250,246,236,0.58)),
     radial-gradient(circle at 20% 20%, rgba(77,107,69,0.16), transparent 60%),
     radial-gradient(circle at 85% 80%, rgba(193,105,62,0.18), transparent 55%);
 }
 .hero-inner{
   position:relative;
   z-index:2;
+}
+.hero .eyebrow,
+.hero h1,
+.hero-sub{
+  text-shadow:0 2px 18px rgba(250,246,236,0.95), 0 1px 4px rgba(250,246,236,0.9);
 }
 @media (max-width:720px){
   .hero-bg{grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(3,1fr);}
