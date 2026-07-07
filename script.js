@@ -45,11 +45,14 @@ const translations = {
     founder_name: "إليان علوي",
     founder_bio: "عشتُ سنواتٍ طويلة في السعودية، واشتغلت في القطاع التقني. وأنا الآن في مرحلة الاكتشاف: أفهم عالم العيش البديل، أو ما يُعرف بمجتمعات \"Off-Grid\"، أكثر، وأفهم نفسي أكثر، وأحاول أن أعرف ما الذي أريده فعلاً قبل أن أقفز إلى أي شيء. لا لأنني وصلت، بل لأنني في منتصف الطريق. أكتب لأن أحداً ما، يشبهني، يبحث الآن عن طريقةٍ أخرى للعيش، وعن أحدٍ سبقه فيها. أردتُ أن أترك أثراً يختصر عليه بعض العناء، ويقول له: لستَ وحدك. لأن يداً واحدة لا تصفّق.",
 
-    articles_tag: "أول مقالاتنا",
+    articles_tag: "مقالاتنا",
     articles_title: "مقالات ولقاءات",
     a1_type: "مقال",
     a1_title: "لستَ وحدك",
     a1_text: "رحلة شخصية من النجاح المادي إلى البحث عن معنى الحياة، وكيف وصلت إلى فكرة القرى البيئية.",
+    a2_type: "مقال",
+    a2_title: "طيف العيش البديل الكامل",
+    a2_text: "دليل شامل لأربعة عشر نمط عيش بديل، من الخيام والكهوف إلى التعاونيات السكنية، بالتاريخ والأمثلة والمصادر.",
     more_soon_text: "مقالات ومقابلات أكثر في الطريق.",
 
     gallery_tag: "لحظات من معبر",
@@ -114,11 +117,14 @@ const translations = {
     founder_name: "Elian Alawi",
     founder_bio: "I lived for many years in Saudi Arabia and worked in the tech industry. Right now, I'm in a phase of discovery: understanding the world of alternative living, or what's known as \"off-grid\" communities, more, understanding myself more, and trying to figure out what I actually want before I leap into anything. Not because I've arrived, but because I'm still in the middle of the road. I'm writing because someone out there, someone like me, is searching right now for another way to live, and for someone who came before them. I wanted to leave something behind that spares them some of the struggle, something that tells them: you're not alone. Because one hand alone can't clap.",
 
-    articles_tag: "Our First Article",
+    articles_tag: "Our Articles",
     articles_title: "Articles & Talks",
     a1_type: "Article",
     a1_title: "You're Not Alone",
     a1_text: "A personal journey from material success to searching for meaning, and how it led to the idea of ecovillages.",
+    a2_type: "Article",
+    a2_title: "The Full Spectrum of Alternative Living",
+    a2_text: "A complete guide to fourteen alternative living styles, from tents and caves to housing cooperatives, with history, examples, and sources.",
     more_soon_text: "More articles and interviews are on the way.",
 
     gallery_tag: "Moments from Mabr",
