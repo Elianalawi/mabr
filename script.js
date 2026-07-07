@@ -53,8 +53,8 @@ const translations = {
     a1_title: "لستَ وحدك",
     a1_text: "رحلة شخصية من النجاح المادي إلى البحث عن معنى الحياة، وكيف وصلت إلى فكرة القرى البيئية.",
     a2_type: "مقال",
-    a2_title: "طيف العيش البديل الكامل",
-    a2_text: "دليل شامل لأربعة عشر نمط عيش بديل، من الخيام والكهوف إلى التعاونيات السكنية، بالتاريخ والأمثلة والمصادر.",
+    a2_title: "أنماط العيش البديل",
+    a2_text: "دليل شامل لخمسة عشر نمط عيش بديل، من الخيام والكهوف إلى التعاونيات السكنية، بالتاريخ والأمثلة والمصادر.",
     more_soon_text: "مقالات ومقابلات أكثر في الطريق.",
 
     gallery_tag: "لحظات من معبر",
@@ -127,8 +127,8 @@ const translations = {
     a1_title: "You're Not Alone",
     a1_text: "A personal journey from material success to searching for meaning, and how it led to the idea of ecovillages.",
     a2_type: "Article",
-    a2_title: "The Full Spectrum of Alternative Living",
-    a2_text: "A complete guide to fourteen alternative living styles, from tents and caves to housing cooperatives, with history, examples, and sources.",
+    a2_title: "Styles of Alternative Living",
+    a2_text: "A complete guide to fifteen alternative living styles, from tents and caves to housing cooperatives, with history, examples, and sources.",
     more_soon_text: "More articles and interviews are on the way.",
 
     gallery_tag: "Moments from Mabr",
