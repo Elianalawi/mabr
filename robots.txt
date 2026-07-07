@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zesty-meringue-1b5866.netlify.app/sitemap.xml
