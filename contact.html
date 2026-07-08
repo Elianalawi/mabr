@@ -16,7 +16,7 @@
 <meta name="twitter:image" content="https://mabr.net/logo.png">
 <link rel="canonical" href="https://mabr.net/contact.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body class="lang-ar">
@@ -97,22 +97,22 @@
       const lang = document.documentElement.lang === "ar" ? "ar" : "en";
       if (form.action.includes("YOUR_CONTACT_FORM_ID")) {
         note.textContent = errorMsg[lang];
-        note.style.color = "#c1693e";
+        note.style.color = "#C66A3B";
         return;
       }
       try {
         const res = await fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } });
         if (res.ok) {
           note.textContent = successMsg[lang];
-          note.style.color = "#33482f";
+          note.style.color = "#2A4531";
           form.reset();
         } else {
           note.textContent = errorMsg[lang];
-          note.style.color = "#c1693e";
+          note.style.color = "#C66A3B";
         }
       } catch (err) {
         note.textContent = errorMsg[lang];
-        note.style.color = "#c1693e";
+        note.style.color = "#C66A3B";
       }
     });
   });
