@@ -237,6 +237,12 @@ section h2{
   .founder{flex-direction:column;align-items:center;text-align:center;}
 }
 
+/* PHILOSOPHY */
+.manifesto-text{
+  max-width:760px;font-size:1.15rem;line-height:1.9;color:var(--text);
+  border-inline-start:4px solid var(--terracotta);padding-inline-start:var(--sp-4);
+}
+
 /* ARTICLES */
 .articles{background:var(--beige);}
 .coming-soon{
@@ -269,6 +275,18 @@ section h2{
 .card h3{margin:8px 0 10px;color:var(--green-dark);font-weight:600;font-size:1.3rem;}
 .card p{color:var(--text-soft);font-size:.95rem;}
 .more-soon-note{color:var(--text-soft);font-size:.9rem;text-align:center;}
+
+/* LAB */
+.lab-intro{max-width:760px;color:var(--text-soft);font-size:1.08rem;margin-bottom:var(--sp-6);}
+.lab-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-4);}
+.lab-card{
+  background:#fff;border-radius:var(--radius);padding:var(--sp-5);
+  border:1px solid rgba(42,69,49,0.08);
+  box-shadow:0 8px 24px rgba(42,69,49,0.05);
+}
+.lab-num{color:var(--terracotta);font-weight:700;font-size:.85rem;display:block;margin-bottom:8px;}
+.lab-card h3{color:var(--green-dark);font-weight:600;margin-bottom:8px;font-size:1.1rem;}
+.lab-card p{color:var(--text-soft);font-size:.95rem;}
 
 /* ARTICLE PAGE */
 .article-hero{padding:60px 0 30px;text-align:center;}
@@ -330,6 +348,7 @@ section h2{
 .join h2{color:#fff;}
 .join-inner{max-width:640px;}
 .join p{color:#e7ecdf;margin-bottom:var(--sp-5);}
+.join-grounding{font-size:1.05rem;line-height:1.85;}
 .signup-form{
   display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-bottom:16px;
 }
@@ -361,6 +380,7 @@ section h2{
   .pillars{grid-template-columns:repeat(2,1fr);}
   .article-grid{grid-template-columns:1fr;}
   .gallery-grid{grid-template-columns:repeat(2,1fr);}
+  .lab-grid{grid-template-columns:repeat(2,1fr);}
 }
 @media (max-width:720px){
   .main-nav{
@@ -375,6 +395,7 @@ section h2{
   .hero h1{font-size:2.2rem;}
   .pillars{grid-template-columns:1fr;}
   .gallery-grid{grid-template-columns:1fr;}
+  .lab-grid{grid-template-columns:1fr;}
 }
 
 /* Language utility classes (for long-form bilingual content) */
