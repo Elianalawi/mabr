@@ -42,7 +42,7 @@ const translations = {
 
     about_tag: "الفكرة",
     about_title: "من أين بدأت",
-    about_text: "بدأت أسأل نفسي: ليش لازم أعيش بالطريقة اللي يعيشها أغلب الناس؟ صار عندي فضول أعرف عن ناس عايشين بعيد عن الشبكة، في كهوف، في خيام، في قرى بنوها بأيديهم، ليش اختاروا هذا، كيف نجحوا، ووين تعثروا. دورت على مصدر عربي يبحث في هذا بجدية فما لقيت، فقررت أبدأ أنا. معبر مو منصة نصائح، وما أدّعي إني وصلت لجواب. هو أرشيف بحثي أوثّق فيه كل ما أتعلمه بالتاريخ والأرقام والمميزات والعيوب، من غير تجميل. تفتح أي مقال وتلقى الإيجابيات جنب السلبيات، لأن الهدف إنك تفهم، مو إني أقنعك.",
+    about_text: "سألت نفسي: ليش أغلب وقتي يروح في وظيفة ما تعجبني، تاخذ ثلث يومي وما تسيب لي مجال أجلس مع نفسي وأمارس الأمور اللي أحبها، وهذا كله عشان تكاليف عالية مثل الإيجار والمواصلات والكهرباء والإنترنت والأكل والشرب؟ هل كان أجدادنا بالقرى يعانون نفس المعاناة؟ هل فيه ناس شافوا حل لهذي المشاكل؟ إحنا الآن مواردنا أكثر وعقولنا متفتحة أكثر وتقنياتنا أقوى، ومع ذلك أعيش حياة أصعب عشان أوفّر الأساسيات. لذلك سويت معبر: عشان أبحث وأشوف هل فيه طرق حياة بديلة تسهّل علينا الوصول للأساسيات أم لا.",
 
     pillar1_title: "مقالات",
     pillar1_text: "نكتب عن تجارب وأنظمة عيش بعيدة عن المدينة.",
@@ -153,7 +153,7 @@ const translations = {
 
     about_tag: "The Idea",
     about_title: "Where I Started",
-    about_text: "I started asking myself: why does life have to look like what everyone else is doing? I got curious about people living off the grid, in caves, in tents, in villages they built with their own hands, why they chose it, what worked, and where they struggled. I looked for a serious Arabic source researching this and couldn't find one, so I decided to start it myself. Mabr isn't an advice platform, and I'm not claiming to have arrived at answers. It's a research archive where I document everything I learn, with history, numbers, pros and cons, no polish. Open any piece and you'll find the upsides next to the downsides, because the goal is for you to understand, not for me to convince you.",
+    about_text: "I asked myself: why does most of my time go into a job I don't even like, one that takes up a third of my day and leaves me no room to sit with myself and do the things I love, all so I can afford things like rent, transportation, electricity, internet, food, and water? Did our grandparents in the villages struggle with the same thing? Did anyone find a way around these problems? We have more resources now, more open minds, and stronger technology, yet I live a harder life just to cover the basics. That's why I started Mabr: to research and find out whether there are alternative ways of living that make it easier for us to reach the basics, or not.",
 
     pillar1_title: "Articles",
     pillar1_text: "We write about experiences and ways of living beyond the city.",
