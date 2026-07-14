@@ -241,7 +241,19 @@ section h2{
 .manifesto-text{
   max-width:760px;font-size:1.15rem;line-height:1.9;color:var(--text);
   border-inline-start:4px solid var(--terracotta);padding-inline-start:var(--sp-4);
+  margin-bottom:var(--sp-4);
 }
+.philosophy-subtitle{
+  font-size:1.4rem;font-weight:600;color:var(--terracotta);margin:var(--sp-6) 0 var(--sp-3);
+}
+.value-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--sp-4);max-width:760px;margin-top:var(--sp-3);}
+.value-card{
+  background:#fff;border-radius:var(--radius);padding:var(--sp-5);
+  border:1px solid rgba(42,69,49,0.08);
+  box-shadow:0 8px 24px rgba(42,69,49,0.05);
+}
+.value-card h3{color:var(--green-dark);font-weight:600;margin-bottom:8px;font-size:1.1rem;}
+.value-card p{color:var(--text-soft);font-size:.95rem;}
 
 /* ARTICLES */
 .articles{background:var(--beige);}
@@ -287,6 +299,10 @@ section h2{
 .lab-num{color:var(--terracotta);font-weight:700;font-size:.85rem;display:block;margin-bottom:8px;}
 .lab-card h3{color:var(--green-dark);font-weight:600;margin-bottom:8px;font-size:1.1rem;}
 .lab-card p{color:var(--text-soft);font-size:.95rem;}
+.criteria-focus{
+  background:var(--beige);border-radius:var(--radius);padding:var(--sp-4);margin-top:var(--sp-5);
+  color:var(--green-dark);font-weight:600;text-align:center;
+}
 
 /* ARTICLE PAGE */
 .article-hero{padding:60px 0 30px;text-align:center;}
@@ -396,6 +412,7 @@ section h2{
   .pillars{grid-template-columns:1fr;}
   .gallery-grid{grid-template-columns:1fr;}
   .lab-grid{grid-template-columns:1fr;}
+  .value-grid{grid-template-columns:1fr;}
 }
 
 /* Language utility classes (for long-form bilingual content) */
