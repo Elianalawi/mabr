@@ -57,6 +57,15 @@ const translations = {
     founder_tag: "المؤسس",
     founder_name: "إليان علوي",
     founder_bio: "عشتُ سنواتٍ طويلة في السعودية، واشتغلت في القطاع التقني. وأنا الآن في مرحلة الاكتشاف: أفهم عالم العيش البديل، أو ما يُعرف بمجتمعات \"Off-Grid\"، أكثر، وأفهم نفسي أكثر، وأحاول أن أعرف ما الذي أريده فعلاً قبل أن أقفز إلى أي شيء. لا لأنني وصلت، بل لأنني في منتصف الطريق. أكتب لأن أحداً ما، يشبهني، يبحث الآن عن طريقةٍ أخرى للعيش، وعن أحدٍ سبقه فيها. أردتُ أن أترك أثراً يختصر عليه بعض العناء، ويقول له: لستَ وحدك. لأن يداً واحدة لا تصفّق.",
+    founder_more_link: "اقرأ قصتي كاملة في مقالة \"لستَ وحدك\" ←",
+
+    explore_tag: "استكشف",
+    explore_title: "استكشف معبر",
+    idea_card_title: "الفكرة والفلسفة",
+    idea_card_text: "ليش بدأت معبر، والقيم والمعايير اللي أفحص فيها أي حل بديل قبل أوثّقه.",
+    idea_card_link: "اعرف أكثر ←",
+    archive_card_text: "مقالات ودراسات نوثّق فيها تجارب وأنماط عيش بديلة، بالتاريخ والأرقام والتجارب الحقيقية.",
+    archive_card_link: "تصفح الأرشيف ←",
 
     philosophy_tag: "الفلسفة",
     philosophy_title: "ليش معبر",
@@ -189,6 +198,15 @@ const translations = {
     founder_tag: "Founder",
     founder_name: "Elian Alawi",
     founder_bio: "I lived for many years in Saudi Arabia and worked in the tech industry. Right now, I'm in a phase of discovery: understanding the world of alternative living, or what's known as \"off-grid\" communities, more, understanding myself more, and trying to figure out what I actually want before I leap into anything. Not because I've arrived, but because I'm still in the middle of the road. I'm writing because someone out there, someone like me, is searching right now for another way to live, and for someone who came before them. I wanted to leave something behind that spares them some of the struggle, something that tells them: you're not alone. Because one hand alone can't clap.",
+    founder_more_link: "Read my full story in \"You're Not Alone\" →",
+
+    explore_tag: "Explore",
+    explore_title: "Explore Mabr",
+    idea_card_title: "The Idea & Philosophy",
+    idea_card_text: "Why I started Mabr, and the values and criteria I test every alternative solution against before documenting it.",
+    idea_card_link: "Learn more →",
+    archive_card_text: "Articles and studies documenting alternative living experiences and styles, with history, numbers, and real experience.",
+    archive_card_link: "Browse the archive →",
 
     philosophy_tag: "Philosophy",
     philosophy_title: "Why Mabr",
