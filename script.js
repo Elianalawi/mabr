@@ -4,6 +4,7 @@ const translations = {
     nav_home: "الرئيسية",
     nav_about: "عنّا",
     nav_articles: "مقالات",
+    nav_projects: "مشاريع",
     nav_gallery: "صور",
     nav_talks: "لقاءات",
     nav_contact: "تواصل معنا",
@@ -73,7 +74,7 @@ const translations = {
 
     method_title: "كيف أوثّق",
     method_text1: "معبر يوثق مشاكل حياتي المستمرة والحية اللي تفرض علي إرضاء طرف خارجي عشان أبقى أو أعيش، حكومة، صاحب عمل، أي طرف ثالث. ما أنشر إلا لما أوصل لنتيجة واضحة أو خلاصة حقيقية، مو بحث مفتوح وأنا لسا بنص الطريق، عشان اللي يقرأ يلقى شي مبني على تجربة كاملة، مو أفكار نصف ناضجة.",
-    method_text2: "معبر يوثّق ويرشد للخيارات الموجودة وتجارب الناس اللي قدروا يجيبوا حلول. ما يبني حلول تقنية أو خدمية بنفسه.",
+    method_text2: "معبر يوثّق تجارب حقيقية: تجربتي الشخصية، أو تجارب ناس ثانين قدروا يجيبوا حلول. مو نصايح نظرية ولا حلول جاهزة من غير تجربة فعلية على الأرض.",
 
     articles_tag: "الأرشيف",
     articles_title: "دفتر البحث",
@@ -100,7 +101,18 @@ const translations = {
     criteria2_text: "أعمال أختارها أنا بحرية، مو تُفرض علي، حتى لو جديدة علي، طالما أنا اللي اخترتها.",
     criteria3_title: "وقت فراغ كافٍ",
     criteria3_text: "وقت حقيقي يروح لمعنى حياتي، مو بس فتات وقت بعد ما يوفيني الدوام حقه.",
-    criteria_focus: "أول محور أشتغل عليه فعليًا الحين: مسارات إقامة قانونية بالسعودية (وبعدين بلدان ثانية) ما تفرض علي وظيفة كاملة أو كفيل تقليدي.",
+    criteria_focus: "أول تطبيق عملي لهذي المعايير هو مشروع سكن تشاركي في الرياض، أول مشروع نشتغل عليه فعليًا الحين.",
+
+    projects_tag: "المشاريع",
+    projects_title: "مشاريع نجربها فعليًا",
+    projects_intro: "هنا نحاول نبني مشاريع مشتركة سوا، لها علاقة مباشرة بحل المشاكل اللي نتكلم عنها: تكاليف المعيشة، أو الحياة الاجتماعية، أو غيرها. مو أفكار نظرية، مشاريع نجربها فعليًا ونوثق نتيجتها.",
+    project1_status: "قيد التأسيس",
+    project1_title: "سكن تشاركي في الرياض",
+    project1_text: "مجموعة صغيرة تتشارك نفس القيم، تعيش سوا وتتقاسم تكلفة الإيجار، بهدف نوصل لأفضل تجربة سكن ممكنة لكل ساكن فيها.",
+    project1_link: "اقرأ التفاصيل ←",
+    projects_page_title: "مشاريع معبر",
+    project1_detail1: "أول مشروع نشتغل عليه فعليًا: سكن تشاركي في الرياض لمجموعة صغيرة من الناس اللي يشتركون في نفس القيم، يعيشون في نفس المكان، ويتقاسمون تكلفة الإيجار والمصاريف المشتركة. الهدف إننا نوصل لأفضل تجربة سكن ممكنة لكل شخص يسكن فيه: تكلفة أقل، قرب من ناس تشبهك، ووقت وطاقة أكثر تروح لأشياء تستاهل.",
+    project1_detail2: "المشروع الآن في مرحلة التأسيس: نحدد التفاصيل ونبحث عن الأشخاص المناسبين. لو الفكرة تعجبك وتحس إنك تشبهنا في القيم والاتجاه، سجّل بريدك وراح نتواصل معك أول ما يكون عندنا تحديث.",
 
     gallery_tag: "لحظات من معبر",
     gallery_title: "معرض الصور",
@@ -124,6 +136,7 @@ const translations = {
     nav_home: "Home",
     nav_about: "About",
     nav_articles: "Articles",
+    nav_projects: "Projects",
     nav_gallery: "Gallery",
     nav_talks: "Talks",
     nav_contact: "Contact",
@@ -193,7 +206,7 @@ const translations = {
 
     method_title: "How I Document",
     method_text1: "Mabr documents the ongoing, live problems in my life that force me to satisfy an outside party just to stay or live somewhere, a government, an employer, any third party. I only publish once I reach a clear result or a real conclusion, not open research while I'm still halfway through, so readers find something built on complete experience, not half-formed ideas.",
-    method_text2: "Mabr documents and points to existing options and other people's experiences finding solutions. It doesn't build technical or service solutions of its own.",
+    method_text2: "Mabr documents real experiences: my own personal experience, or other people's experiences finding solutions. Not theoretical advice or ready-made solutions without real, on-the-ground experience.",
 
     articles_tag: "The Archive",
     articles_title: "The Research Notebook",
@@ -220,7 +233,18 @@ const translations = {
     criteria2_text: "Work I choose freely, not work imposed on me, even if it's new to me, as long as I'm the one who chose it.",
     criteria3_title: "Enough Free Time",
     criteria3_text: "Real time that goes toward what gives my life meaning, not just scraps left over after work takes its share.",
-    criteria_focus: "The first area I'm actually working on right now: legal residency paths in Saudi Arabia (and later other countries) that don't require a full-time job or a traditional sponsor.",
+    criteria_focus: "The first practical application of these criteria is a shared housing project in Riyadh, the first project we're actually working on right now.",
+
+    projects_tag: "Projects",
+    projects_title: "Projects We're Actually Building",
+    projects_intro: "This is where we try to build shared projects together, ones directly connected to solving the problems we talk about: the cost of living, social life, and more. Not theoretical ideas, projects we actually try and document the results of.",
+    project1_status: "Early Stage",
+    project1_title: "Shared Housing in Riyadh",
+    project1_text: "A small group who share the same values, living together and splitting the cost of rent, aiming to reach the best possible living experience for everyone who lives there.",
+    project1_link: "Read the details →",
+    projects_page_title: "Mabr Projects",
+    project1_detail1: "The first project we're actually working on: shared housing in Riyadh for a small group of people who share the same values, living in the same place and splitting rent and shared expenses. The goal is to reach the best possible living experience for everyone who lives there: lower costs, being close to people like you, and more time and energy for what actually matters.",
+    project1_detail2: "The project is currently in its founding stage: we're working out the details and looking for the right people. If this resonates with you and you feel like you share our values and direction, sign up and we'll reach out once there's an update.",
 
     gallery_tag: "Moments from Mabr",
     gallery_title: "Photo Gallery",
