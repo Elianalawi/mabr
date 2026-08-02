@@ -99,6 +99,9 @@ const translations = {
     a4_type: "قريبًا",
     a4_title: "ترجمات ومراجع",
     a4_text: "اقتباسات مترجمة من مصادر أجنبية بحثت فيها، مع تعليق مختصر.",
+    a5_type: "مقال",
+    a5_title: "من استهلاك الغفلة إلى فلسفة الكينونة",
+    a5_text: "مانيفستو شخصي بعشرة فلاتر لتقييم أي منتج أو براند قبل الشراء، من أصالة المواد إلى حق الإصلاح، مع تطبيق عملي على عشرة احتياجات يومية.",
     more_soon_text: "مقالات ومقابلات أكثر في الطريق.",
 
     criteria_tag: "المسارات",
@@ -240,6 +243,9 @@ const translations = {
     a4_type: "Coming Soon",
     a4_title: "Translated Excerpts",
     a4_text: "Translated excerpts from foreign sources I've researched, with short commentary.",
+    a5_type: "Article",
+    a5_title: "From Mindless Consumption to a Philosophy of Being",
+    a5_text: "A personal manifesto with ten filters for evaluating any product or brand before buying, from material authenticity to the right to repair, with practical application across ten everyday needs.",
     more_soon_text: "More articles and interviews are on the way.",
 
     criteria_tag: "Current Tracks",

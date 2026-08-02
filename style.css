@@ -379,6 +379,20 @@ section h2{
 .sources-list li{margin-bottom:8px;}
 .sources-list a{color:var(--brown);}
 
+/* BRAND GRID (article brand callouts) */
+.brand-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--sp-3);margin:var(--sp-3) 0 var(--sp-4);}
+.brand-card{
+  background:#fff;border-radius:var(--radius);padding:var(--sp-4);
+  border:1px solid rgba(42,69,49,0.08);box-shadow:0 6px 16px rgba(42,69,49,0.05);
+  text-align:center;
+}
+.brand-logo{max-height:36px;max-width:150px;width:auto;height:auto;margin:0 auto 10px;object-fit:contain;filter:grayscale(0.15);}
+.brand-name-text{display:block;font-weight:700;font-size:1.05rem;color:var(--green-dark);margin-bottom:10px;}
+.brand-card p{font-size:.85rem;color:var(--text-soft);margin:0;line-height:1.6;}
+@media (max-width:600px){
+  .brand-grid{grid-template-columns:1fr;}
+}
+
 /* CONTACT PAGE */
 .contact-form-section{padding:20px 0 90px;}
 .contact-form{
