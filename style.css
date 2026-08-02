@@ -386,7 +386,7 @@ section h2{
   border:1px solid rgba(42,69,49,0.08);box-shadow:0 6px 16px rgba(42,69,49,0.05);
   text-align:center;
 }
-.brand-logo{max-height:36px;max-width:150px;width:auto;height:auto;margin:0 auto 10px;object-fit:contain;filter:grayscale(0.15);}
+.brand-logo{max-height:36px;max-width:150px;width:auto;height:auto;margin:0 auto 10px;object-fit:contain;filter:grayscale(1) brightness(0.35);}
 .brand-name-text{display:block;font-weight:700;font-size:1.05rem;color:var(--green-dark);margin-bottom:10px;}
 .brand-card p{font-size:.85rem;color:var(--text-soft);margin:0;line-height:1.6;}
 @media (max-width:600px){
