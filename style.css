@@ -354,7 +354,7 @@ section h2{
 /* ARTICLE PAGE */
 .article-hero{padding:60px 0 30px;text-align:center;}
 .back-link{
-  display:inline-block;color:var(--brown);font-weight:600;margin-bottom:20px;
+  display:block;color:var(--brown);font-weight:600;margin-bottom:24px;
 }
 .article-hero h1{
   font-size:3rem;font-weight:700;color:var(--green-dark);margin:10px 0 var(--sp-3);
@@ -392,6 +392,8 @@ section h2{
 @media (max-width:600px){
   .brand-grid{grid-template-columns:1fr;}
 }
+.prose .vehicle-photo{max-height:110px;max-width:100%;width:100%;height:110px;object-fit:cover;border-radius:8px;filter:none;margin-bottom:10px;}
+.filter-source-note{font-size:.85rem;color:var(--text-soft);font-style:italic;margin-top:-8px;margin-bottom:var(--sp-4);}
 
 /* CONTACT PAGE */
 .contact-form-section{padding:20px 0 90px;}
