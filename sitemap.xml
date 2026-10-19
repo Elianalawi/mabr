@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mabr.net/</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://mabr.net/about.html</loc>
-    <lastmod>2026-08-04</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -50,19 +50,19 @@
   </url>
   <url>
     <loc>https://mabr.net/talks.html</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mabr.net/field-notes.html</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://mabr.net/translations.html</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
