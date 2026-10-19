@@ -106,6 +106,10 @@ const translations = {
     a5_dim: "· اقتصادي",
     a5_title: "من استهلاك الغفلة إلى فلسفة الكينونة",
     a5_text: "مانيفستو شخصي بعشرة فلاتر لتقييم أي منتج أو براند قبل الشراء، من أصالة المواد إلى حق الإصلاح، مع تطبيق عملي على عشرة احتياجات يومية.",
+    a6_type: "مقال",
+    a6_dim: "· اقتصادي",
+    a6_title: "ليش نشتري؟ من الحاجة إلى القرار",
+    a6_text: "الحاجة نقطة بداية كل شراء، لكنها لحالها ما تفسر إيش نشتري ومن مين ومتى. مقالة موثقة بعمق تشرح كيف تتحول الحاجة إلى قرار شراء فعلي.",
     more_soon_text: "مقالات ومقابلات أكثر في الطريق.",
 
     criteria_tag: "المسارات",
@@ -254,6 +258,10 @@ const translations = {
     a5_dim: "· Economic",
     a5_title: "From Mindless Consumption to a Philosophy of Being",
     a5_text: "A personal manifesto with ten filters for evaluating any product or brand before buying, from material authenticity to the right to repair, with practical application across ten everyday needs.",
+    a6_type: "Article",
+    a6_dim: "· Economic",
+    a6_title: "Why Do We Buy? From Need to Decision",
+    a6_text: "Need is where every purchase starts, but need alone doesn't explain what we buy, from whom, or when. A deeply sourced article on how a need turns into an actual purchase decision.",
     more_soon_text: "More articles and interviews are on the way.",
 
     criteria_tag: "Current Tracks",
